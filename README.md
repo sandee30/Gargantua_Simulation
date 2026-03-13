@@ -24,13 +24,6 @@ A **WebGL-based Black Hole Simulator** built as a **Computer Graphics final proj
 
 ---
 
-##  Screenshots
-
-
-**
-
----
-
 ## Inspiration
 
 This project is inspired by **Gargantua** from *Interstellar* (2014). The physics behind the simulation is based on ideas from **Kip Thorne**, who consulted for the movie and provided the real-world science behind the black hole's appearance.
