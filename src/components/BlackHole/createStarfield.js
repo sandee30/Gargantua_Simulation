@@ -48,19 +48,6 @@ export function createStarfieldCubemap() {
     }
     
 
-    if (f === 0 || f === 1 || f === 4 || f === 5) {
-      
-      for (let i = 0; i < 500; i++) {
-        const x = Math.random() * size;
-        const y = size * 0.35 + Math.random() * size * 0.3;
-        const brightness = Math.random() * 0.5;
-        ctx.beginPath();
-        ctx.arc(x, y, brightness * 0.8 + 0.2, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(200,190,170,${brightness * 0.5})`;
-        ctx.fill();
-      }
-    }
-
     faces.push(canvas);
   }
 
