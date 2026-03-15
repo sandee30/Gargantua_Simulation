@@ -11,6 +11,7 @@ const Index = () => {
         <p className="text-m mt-1">
           By Team Area 51
         </p>
+        <p>&copy; 2026 Developed by Sandeep Pandey.</p>
       </div>
     </div>
   );
