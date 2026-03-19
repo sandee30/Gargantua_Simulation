@@ -1,7 +1,7 @@
 
 
 // bg ko lensing shader
-export const lensingVertexShader = /* glsl */ `
+export const lensingVertexShader = `
 varying vec3 vWorldPosition;
 varying vec3 vDirection;
 
@@ -13,7 +13,7 @@ void main() {
 }
 `;
 
-export const lensingFragmentShader = /* glsl */ `
+export const lensingFragmentShader =`
 uniform float uTime;
 uniform vec3 uBlackHolePos;
 uniform float uRs;
@@ -220,20 +220,20 @@ void main() {
 `;
 
 //Event-horizon shader
-export const horizonVertexShader = /* glsl */ `
+export const horizonVertexShader = `
 void main() {
   gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
 }
 `;
 
-export const horizonFragmentShader = /* glsl */ `
+export const horizonFragmentShader = `
 void main() {
   gl_FragColor = vec4(0.0, 0.0, 0.0, 1.0);
 }
 `;
 
 //Accretion-disk shader
-export const diskVertexShader = /* glsl */ `
+export const diskVertexShader = `
 varying vec3 vWorldPos;
 varying vec2 vUv;
 
